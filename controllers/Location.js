@@ -12,18 +12,30 @@ const LocationSeed = [
     location: "Arizona, USA",
     img: "https://www.outsideonline.com/wp-content/uploads/2018/11/20/outside-guide-grand-canyon_h.jpg",
     description: "The canyon measures over 270 miles long, up to 18 miles wide and a mile deep, making it one of the biggest canyons in the world. This natural landmark formed about five to six million years as erosion from the Colorado River cut a deep channel through layers of rock.",
+    keyInterests: [{
+      adventure1: "Go hiking through the valley", 
+      adventure2: "Stand on the edge of the cliff",
+      adventure3: "Off-roading through the sand dunes"}]
   },
   {
     activity: "View the Northen Lights",
     location: "Tromso, Norway",
     img: "https://d19lgisewk9l6l.cloudfront.net/assetbank/Northern_Lights_over_Tromso_Norway_Credit_Truls_Tiller_3248136.jpg",
     description: "Based in the heart of the aurora zone in the Norwegian Arctic, the city is widely regarded as one of the world’s best places to see the Northern Lights. Easily accessed from the UK – with a direct flight from London taking just 3.5 hours – Tromso serves as a popular destination year after year and offers excellent aurora views from September all the way until April. The city itself is a lively affair, with more pubs and bars per capita than anywhere else in Norway.",
+    keyInterests: [{
+      adventure1: "View the Northern Lights", 
+      adventure2: "Explore Tromso",
+      adventure3: "Build a snowman"}]
   },
   {
     activity: "Pyramids of Giza",
     location: "Egypt",
     img: "https://www.al-monitor.com/sites/default/files/styles/social_media_share/public/almpics/2020/08/GettyImages-1223812377.jpg/GettyImages-1223812377.jpg?h=a5ae579a&itok=Kzc6o3p4",
     description: "The Giza Pyramid Complex, also called the Giza Necropolis, is the site on the Giza Plateau in Greater Cairo, Egypt that includes the Great Pyramid of Giza, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx of Giza. All were built during the Fourth Dynasty of the Old Kingdom of Ancient Egypt, between 2600 and 2500 BC.",
+    keyInterests: {
+      adventure1: "Explore the pyramids", 
+      adventure2: "See a sphinx",
+      adventure3: "Find a mummy"}
   },
 ];
 
