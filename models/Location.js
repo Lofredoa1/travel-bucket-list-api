@@ -11,7 +11,9 @@ const locationSchema = new Schema(
     activity: String,
     location: String,
     img: String,
-    description: String,
+    keyInterests:[{adventure1: String, adventure2: String, adventure3: String }] ,
+    targetDate: Date,
+    
   },
   { timestamps: true }
 );
