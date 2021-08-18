@@ -8,9 +8,10 @@ const model = mongoose.model;
 // Create Place Schema
 const locationSchema = new Schema(
   {
-    activity: {String, required:true},
-    location: {String, required: true},
-    description: {String, required: true},
+    activity: {type: String, required: true},
+    location: {type: String, required: true},
+    travelGoal: {type: String, required: true},
+    description: {type: String, required: true},
     img: String,
     keyInterests:[{adventure1: String, adventure2: String, adventure3: String }] ,
     
